@@ -19,7 +19,7 @@ services:
 env:
   global:
     - THIS_REPO=checker-framework
-    - OS=ubuntu
+#    - OS=ubuntu
   matrix:
     - BUILDJDK=downloadjdk JDKVER=jdk8 GROUP=all-tests
     - BUILDJDK=downloadjdk JDKVER=jdk8 GROUP=jdk.jar
